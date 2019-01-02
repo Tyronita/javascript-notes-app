@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Note</title>
+</head>
+<body>
+    <a href="/index.html">Home</a><br>
+        <!-- Input for note title -->
+        <label>
+            <input type="text" id="note-title" placeholder="Type in your notes title...">
+        </label>
+
+        <!-- Last edited Information -->
+        <span id="last-edited"></span>
+
+        <!-- Input for note body -->
+        <label>
+            <textarea id="note-body" placeholder="Type your note in here..."></textarea>
+        </label>
+        
+        <!-- Remove note button -->
+        <button id="remove-note">Remove Note</button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.23.0/moment-with-locales.min.js"></script>
+    <script src="notes-functions.js"></script>
+    <script src="notes-edit.js"></script>
+</body>
+</html>
